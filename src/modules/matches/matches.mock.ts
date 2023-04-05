@@ -1,26 +1,26 @@
-import { MatchMock } from '../../types/match';
+import { MatchMock, Sports } from '../../types/match';
 
 export const matches: MatchMock[] = [
   {
-    sport: 'soccer',
+    sport: 'soccer' as Sports,
     participant1: 'Chelsea',
     participant2: 'Arsenal',
     score: '2:1',
   },
   {
-    sport: 'volleyball',
+    sport: 'volleyball' as Sports,
     participant1: 'Germany',
     participant2: 'France',
     score: '3:0,25:23,25:19,25:21',
   },
   {
-    sport: 'handball',
+    sport: 'handball' as Sports,
     participant1: 'Pogoń Szczeciń',
     participant2: 'Azoty Puławy',
     score: '34:26',
   },
   {
-    sport: 'basketball',
+    sport: 'basketball' as Sports,
     participant1: 'GKS Tychy',
     participant2: 'GKS Katowice',
     score: [
@@ -29,12 +29,12 @@ export const matches: MatchMock[] = [
     ],
   },
   {
-    sport: 'tennis',
+    sport: 'tennis' as Sports,
     participant1: 'Maria Sharapova',
     participant2: 'Serena Williams',
     score: '2:1,7:6,6:3,6:7',
   },
   {
-    sport: 'ski jumping',
+    sport: 'ski jumping' as Sports,
   },
 ];
