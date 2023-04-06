@@ -1,6 +1,6 @@
 # Statscore Matches
 
-Simple app that map and filter data on initialization
+Simple app that maps and filters data after initiation
 
 ## Example
 
