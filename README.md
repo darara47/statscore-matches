@@ -8,10 +8,10 @@ It changes object:
 
 ```javascript
 {
-  sport: 'soccer',
-  participant1: 'Chelsea',
-  participant2: 'Arsenal',
-  score: '2:1',
+  sport: 'volleyball',
+  participant1: 'Germany',
+  participant2: 'France',
+  score: '3:0,25:23,25:19,25:21',
 };
 ```
 
@@ -19,8 +19,8 @@ into:
 
 ```javascript
 {
-  name: "Chelsea - Arsenal",
-  score: "2:1"
+  name: 'Germany - France',
+  score: 'Main score: 3:0 (set1 25:23, set2 25:19, set3 25:21)'
 }
 ```
 
