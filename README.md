@@ -12,7 +12,7 @@ It changes object:
   participant1: 'Germany',
   participant2: 'France',
   score: '3:0,25:23,25:19,25:21',
-};
+}
 ```
 
 into:
